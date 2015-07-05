@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  form
+    
+    #options
+      input(id="server", type="text", class="form-control", placeholder="Server")
+      input(id="start", type="button", class="btn btn-primary", value="Start")
+    .table-responsive
+      table.table.entries
+        thead
+          tr
+            td Time
+            td Category
+            td Level
+            td Correlation
+            td Message
+        tbody

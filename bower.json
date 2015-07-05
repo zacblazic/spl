@@ -1,0 +1,16 @@
+{
+  "name": "spl",
+  "version": "0.0.0",
+  "authors": [
+    "Zac Blazic <zacblazic@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "directory" : "public/vendor"
+}

@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #161616;
+  color: #C5C5C5;
+}
+
+table thead {
+  font-weight: bold;
+  color: #6DCD7D;
+}
+
+#options {
+  padding-bottom: 20px;
+}
+
+#options input {
+  display: inline-block;
+}
+
+#options #server {
+  width: 200px;
+}
+
+#options #start {
+  margin-left: 10px;
+}
+
+.btn.btn-primary {
+  background: #6DCD7D;
+  border: 1px solid #6DCD7D;
+  color: #161616;
+}
