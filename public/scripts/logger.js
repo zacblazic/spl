@@ -1,11 +1,9 @@
 'use strict';
 
 (function() {
-  var logger = 'http://localhost:3000';
-
   var start = function() {
     var server = $("#server").val();
-    var socket = io.connect(logger);
+    var socket = io.connect();
     socket.emit('start', { server: server })
 
     socket.on('entry', entry);

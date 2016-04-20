@@ -41,7 +41,7 @@ var logger = function() {
       }
 
       var logDirectory = networkPrefix + server + defaultLogDirectory;
-      var file = getLatestFile(logDirectory, function(err, file) {
+      getLatestFile(logDirectory, function(err, file) {
         if (err) {
           console.log(err);
           return;
